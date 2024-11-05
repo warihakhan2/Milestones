@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Resume Builder</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><b>Resume Builder</b></div>
+        <nav>
+                <button class="view"><a href="view.html">View Resume</a></button>
+                <button class="create"><a href="resume.html">Create Resume</a></button>
+        </nav>
+        <header>
+            <div class="txt">
+                <p class="main">Create Your</p>
+                <h1>Resume</h1>
+                <p class="sec">For your dream Job</p>
+                <p class="final"> your one-stop solution for crafting a standout resume that lands you the job. Our easy-to-use platform empowers you to design, customize, and polish your resume in minutes, with templates tailored to every career level and industry. From fresh graduates to seasoned professionals, we help you showcase your skills!</p>
+                <button class="btn-35" id="my-btn"><span>Create your Resume</span></button>
+            </div>
+            <div>
+                <img src="laptop2.png" alt="">
+            </div>
+        </header>
+    </div>
+    <script>
+       const button= document.getElementById("my-btn");
+       button.addEventListener("click", function(){
+        window.location.href = "resume.html";
+       })
+
+    </script>
+</body>
+</html>
